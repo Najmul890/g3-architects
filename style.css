@@ -12,6 +12,17 @@ p{
 }
 header{
     padding: 50px 120px;
+    background-color: #f3e7e7;
+}
+.common-btn{
+    background-color: orange;
+     color: #fff;
+     padding: 10px 20px;
+     font-size: 20px;
+     font-weight: bold;
+     border: none;
+     border-radius: 10px;
+     margin-top: 20px;
 }
 
 /* navbar section design */
@@ -46,16 +57,37 @@ header{
     font-size: 45px;
     margin-bottom: 10px;
 }
-.hero-text-content button{
-     background-color: orange;
-     color: #fff;
-     padding: 10px 20px;
-     font-size: 20px;
-     font-weight: bold;
-     border: none;
-     border-radius: 10px;
-     margin-top: 20px;
-}
+
 .hero-image img{
     width: 100%;
+}
+
+/* features album section design */
+.features-album-section{
+    padding: 100px 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.features-album-image-content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:30px 20px
+}
+.features-album-image-content img{
+    width: 250px;
+}
+.features-album-text-content{
+    padding: 100px;
+}
+.features-album-text-content h3{
+    font-size: 35px;
+}
+.features-album-text-content h3 .first-part{
+    color: rgb(109, 106, 100);
+}
+.features-album-text-content h3 .last-part{
+    color: orange;
+}
+.features-album-text-content p{
+    margin: 20px 0;
 }
