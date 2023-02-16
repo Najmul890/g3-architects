@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* navbar section design */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 120px;
+}
+.navbar h3{
+    font-size: 40px;
+}
+.navbar ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+.navbar ul li{
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+/* hero section design */
