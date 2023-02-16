@@ -6,11 +6,19 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+/* common css design */
+p{
+    font-size: 20px;
+}
+header{
+    padding: 50px 120px;
+}
+
 /* navbar section design */
 .navbar{
     display: flex;
     justify-content: space-between;
-    padding: 50px 120px;
+    
 }
 .navbar h3{
     font-size: 40px;
@@ -27,3 +35,27 @@ body{
 }
 
 /* hero section design */
+.hero-section{
+    margin-top: 100px;
+}
+.hero-text-content{
+    margin-bottom: 50px;
+    text-align: center;
+}
+.hero-text-content h2{
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+.hero-text-content button{
+     background-color: orange;
+     color: #fff;
+     padding: 10px 20px;
+     font-size: 20px;
+     font-weight: bold;
+     border: none;
+     border-radius: 10px;
+     margin-top: 20px;
+}
+.hero-image img{
+    width: 100%;
+}
