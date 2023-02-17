@@ -193,3 +193,26 @@ header{
 .sponsor img{
     height: 50px;
 }
+
+/* contact section design */
+.contact-section{
+    padding:30px 300px 50px 200px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f3e7e7;
+}
+.contact-section-left h3{
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+.contact-section-left p{
+    font-weight: bold;
+}
+.contact-section-right h4{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.contact-section-right input{
+    width: 200px;
+    padding: 30px 50px;
+}
