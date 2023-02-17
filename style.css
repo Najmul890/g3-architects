@@ -216,3 +216,11 @@ header{
     width: 200px;
     padding: 30px 50px;
 }
+
+/* footer design */
+footer p{
+    font-size: 16px;
+    text-align: center;
+    padding: 20px;
+    
+}
