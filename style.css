@@ -148,3 +148,23 @@ header{
 .experience-box h3{
     font-size: 30px;
 }
+
+/* facts section design */
+.facts-section{
+    padding: 20px 140px;
+}
+.facts-section h3{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.facts-section .facts{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 50px;
+    
+}
+.facts-section .facts .fact{
+    border: 1px solid orange;
+    padding: 30px 40px;
+    text-align: center;
+}
