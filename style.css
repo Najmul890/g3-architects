@@ -218,9 +218,11 @@ header{
 }
 
 /* footer design */
-footer p{
-    font-size: 16px;
+.footer{
     text-align: center;
+}
+.footer p{
+    font-size: 16px;
     padding: 20px;
     
 }
